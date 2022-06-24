@@ -1,0 +1,134 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+.fisrt-container {
+    
+    padding: 20px ;
+
+
+}
+.sub-div {
+    display: flex;
+   
+
+}
+.sub-div ul {
+    
+    position: absolute;
+    right: 15px;
+
+}
+.sub-div li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 15px;
+}
+.sub-div li a{
+    text-decoration: none;
+   
+    
+}
+.logo{
+    text-decoration: none;
+    padding: 10px;
+}
+.second-container {
+    background-image: url("../pix.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.second-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 255, 0.207);
+}
+.bg-content {
+    position: absolute;
+    padding: 50px;
+    top: 70px;
+    color: white;
+}
+.bg-content a {
+    color: red;
+    text-decoration: none;
+    background-color: gray;
+    padding: 12px;
+    border-radius: 20px;
+    border: red;
+    margin-top: 10px;
+}
+.bg-content p {
+
+    margin-bottom: 50px;
+    width: 30%;
+}
+.row {
+    display: flex;
+    padding: 70px;
+}
+ .row h1 {
+     padding: 20px;
+     border-radius: 50px;
+     background-color: blue;
+     text-align: center;
+     width: 20%;
+     height: 20%;
+ }
+ .forth-container {
+     background-color: blue;
+     height: 70vh;
+     padding: 20px;
+     position: relative;
+
+ }
+ .contact-us {
+     display: flex;
+     position: absolute;
+     left: 20%;
+     top: 20%;
+ }
+ .contact-us img{
+     width: 550px;
+    
+    
+     border-radius: 15px;
+ }
+ .contact-us-left {
+     width: 400px;
+     color: white;
+     
+
+
+ }
+ .contact-us-left button {
+     background: red;
+     border-radius: 15px;
+     padding: 20px;
+     border: none;
+     color: white;
+
+ }
+ footer {
+     background-color: black;
+     height: 30vh;
+     color: white;
+     position: relative;
+ }
+ footer div {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+
+ }
+ .s-form, .result {
+     display: none;
+ }
